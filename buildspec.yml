@@ -10,8 +10,6 @@ phases:
     - echo "Deployed to S3"
 artifacts:
   files:
-     - appspec.yml
-    - target/SampleMavenTomcatApp.war
-    - scripts/*
+    - '**/*'
 
 
