@@ -5,7 +5,7 @@ phases:
       commands:
       - echo "This is build phase... zipping my webpage"
       
-  post _build:
+  post_build:
     commands:
     - echo "Deployed to S3"
 artifacts:
