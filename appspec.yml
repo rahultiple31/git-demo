@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /home/ubuntu
+    destination: /var/www/html/
 hooks:
   AfterInstall:
     - location: afterinstall.sh
