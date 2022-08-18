@@ -8,5 +8,5 @@ hooks:
     - location: afterinstall.sh
       timeout: 100
   ApplicationStart:
-    - location: /var/www/html/index.html
+    - location: applicationstart.sh
       timeout: 100
