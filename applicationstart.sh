@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/ubuntu
-systemctl start httpd server.js
+systemctl start httpd
