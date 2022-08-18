@@ -5,7 +5,7 @@ files:
     destination: /home/ubuntu
 hooks:
   AfterInstall:
-    - location: /etc/httpd/config/httpd.conf
+    - location: afterinstall.sh
       timeout: 100
   ApplicationStart:
     - location: /var/www/html/index.html
