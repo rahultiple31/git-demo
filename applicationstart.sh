@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/ubuntu
-/var/www/html/index.html
+sudo systemctl start httpd
